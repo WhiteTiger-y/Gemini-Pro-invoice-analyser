@@ -1,0 +1,13 @@
+prefix=D:/Coding/Gemini Invoice Translator/venv/Library
+exec_prefix=D:/Coding/Gemini Invoice Translator/venv/Library
+libdir=D:/Coding/Gemini Invoice Translator/venv/Library/lib
+sharedlibdir=D:/Coding/Gemini Invoice Translator/venv/Library/lib
+includedir=D:/Coding/Gemini Invoice Translator/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
