@@ -6,4 +6,4 @@ langchain==0.1.0
 PyPDF2==1.26.0
 chromadb==0.4.22
 faiss-cpu==1.7.4
-pyttsx3==2.90
+gtts==2.2.3
