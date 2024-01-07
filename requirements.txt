@@ -1,9 +1,8 @@
-streamlit
-google-generativeai
-python-dotenv
-langchain
-PyPDF2
-chromadb
-faiss-cpu
-pyttsx3
-espeak
+streamlit==1.29.0
+google-generativeai==0.3.2
+python-dotenv==1.0.0
+langchain==0.1.0
+PyPDF2==1.26.0
+chromadb==0.4.22
+faiss-cpu==1.7.4
+pyttsx3==2.90
