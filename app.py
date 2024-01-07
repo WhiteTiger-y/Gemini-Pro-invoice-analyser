@@ -9,6 +9,9 @@ import google.generativeai as genai
 import pyttsx3
 import base64
 
+#Debug: Print loaded environment variables
+st.write("Loaded Environment Variables:")
+st.write(os.environ)
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 ##Function to load Gemini Pro Vision
