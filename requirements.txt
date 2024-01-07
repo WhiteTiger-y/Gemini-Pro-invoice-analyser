@@ -6,4 +6,4 @@ PyPDF2
 chromadb
 faiss-cpu
 pyttsx3
-bae64
+base64
