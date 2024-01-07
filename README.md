@@ -23,7 +23,7 @@ Gemini Pro Invoice Analyzer is an innovative solution that combines Google's adv
    - Designed for easy integration into various applications, workflows, or systems that require automated invoice analysis.
    - Enhances the efficiency of existing processes by automating the extraction of invoice details.
 
-6. ### Output Invoice in English:
+6. ### Output Response in English:
    - Further enhances accessibility by providing the option to read out the extracted invoice details in English.
    - Improves usability for users who prefer an auditory output or have specific accessibility needs.
 
