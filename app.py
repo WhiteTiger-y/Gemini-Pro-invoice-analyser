@@ -6,7 +6,7 @@ import streamlit as st
 import os
 from PIL import Image
 import google.generativeai as genai
-import pyttsx3
+from gtts import gTTS
 import base64
 
 # #Debug: Print loaded environment variables
@@ -38,9 +38,8 @@ def input_image_setup(uploaded_file):
         raise FileNotFoundError("No file uploaded")
 
 def text_to_speech(text):
-    text_speech=pyttsx3.init()
-    text_speech.save_to_file(text,"output.mp3")
-    text_speech.runAndWait()
+    tts=gTTS(text=text,lang='en')
+    tts.save("output.mp3")
     with open("output.mp3", "rb") as audio_file:
         audio_data = audio_file.read()
         return base64.b64encode(audio_data).decode('utf-8')
