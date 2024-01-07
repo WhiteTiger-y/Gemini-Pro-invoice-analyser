@@ -10,11 +10,4 @@ Gemini Pro Invoice Analyzer is an innovative project that harnesses the power of
 - **User-Friendly Interface:** Intuitive and easy-to-use interface for a seamless user experience.
 - **Versatile Integration:** Can be easily integrated into various applications, workflows, or systems requiring automated invoice analysis.
 
-## Getting Started
 
-### Installation
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/gemini-pro-invoice-analyzer.git
-   cd gemini-pro-invoice-analyzer
